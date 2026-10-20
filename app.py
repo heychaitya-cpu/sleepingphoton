@@ -51,4 +51,4 @@ def analyze_stock(ticker_symbol):
         reasons.append(f"Attractive P/E valuation ({pe_ratio:.1f})")
     elif not np.isnan(pe_ratio) and pe_ratio >= 50:
         score -= 1
-        reasons.append(f"High P/E valuation ({pe_ratio:.1f
+        reasons.append(f"High P/E valuation ({pe_ratio:.1f})")
